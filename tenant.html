@@ -5,11 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/src/css/navbar.css">
-    <link rel="stylesheet" href="/src/css/containt.css">
-    <link rel="stylesheet" href="/src/css/footer.css">
-    <link rel="stylesheet" href="/src/css/tenant.css">
-    <link rel="stylesheet" href="/src/css/contact.css">
     <link rel="stylesheet" href="https://yahiyamansuri14.github.io/maxnectcommercia/src/css/navbar.css">
     <link rel="stylesheet" href="https://yahiyamansuri14.github.io/maxnectcommercia/src/css/containt.css">
     <link rel="stylesheet" href="https://yahiyamansuri14.github.io/maxnectcommercia/src/css/footer.css">
@@ -22,7 +17,7 @@
         integrity="sha512-Dj9pt3sZROOuTTs9S89ykGZeu1XQgWKg3DVpu5tZALApsrWdd3tnVjTclUuVONaHM4O8GgCnjSbHlTKXrd2OWg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Maxnetcommercial.com</title>
+    <title>Maxnet Commercial</title>
 </head>
 
 <body>
@@ -30,8 +25,8 @@
     <header>
         <nav class="navbar">
             <div class="logo-container">
-                <a href="index.html">
-                    <img src="https://yahiyamansuri14.github.io/maxnectcommercia/src/img/logo.jpg" alt="logo"
+                <a href="https://yahiyamansuri14.github.io/maxnectcommercia/index.html">
+                    <img src="https://yahiyamansuri14.github.io/maxnectcommercia/src/img/Maxnet Logo.JPG" alt="logo"
                         class="logo" />
                 </a>
             </div>
@@ -51,21 +46,21 @@
         </nav>
     </header>
     <div class="img-container">
-        <img src="https://yahiyamansuri14.github.io/maxnectcommercia/src/img/city-image-by-source-unsplace.jpg"
-            alt="[Alt-Text]" class="center-image" />
+        <img src="https://yahiyamansuri14.github.io/maxnectcommercia/src/img/tenant-request.png"
+            alt="Property Management Hero Image" class="center-image" />
     </div>
     <div class="tenant-container">
         <div class="request-parent-container">
             <ul class="request-button-container">
-                <li class="request-button" onclick="openForm(event, 'maintainance')">Maintainance Request</li>
+                <li class="request-button active" onclick="openForm(event, 'maintainance')">Maintainance Request</li>
                 <li class="request-button" onclick="openForm(event, 'tenant')">Tenant Form</li>
+                <li class="request-button" onclick="openForm(event, 'ACH')">ACH Form</li>
             </ul>
         </div>
         <div class="various-form-container">
             <div class="tabcontent" id="maintainance">
-                <span class="footer-subheading" style="text-align: center;display:block;color: #ffb400;">Maintainance
-                    Request
-                    Form</span>
+                <span class="heading" style="text-align: center;display:block;color: #ffb400;">Maintainance
+                    Request Form</span>
                 <form class="contact-form">
                     <div class="form-field-container">
                         <input type="text" name="bname" id="bname" placeholder="Business Name" class="form-field" />
@@ -101,25 +96,36 @@
                     <input type="submit" class="contact-button" value="Submit" />
                 </form>
             </div>
+
             <div class="tabcontent" id="tenant">
-                <span class="footer-subheading" style="text-align: center;display:block;color: #ffb400;">Tenant
+                <span class="heading" style="text-align: center;display:block;color: #ffb400;">Tenant
                     Form</span>
-                <span class="tenant-request-text">To send a Tenant Request, please download the form below and send via
-                    mail at info@maxnetcommercial.com</span>
+                <span class="tenant-request-text">Kindly download New Tanent Request Form from given link and send us at
+                    info@maxnetcommercial.com</span>
                 <div class="tenant-forms-container">
                     <span class="tenant-request-text" style="display:block;">Application to lease Form</span>
                     <a href="https://yahiyamansuri14.github.io/maxnectcommercia/src/document/application-to-lease-form.pdf"
                         download="application-to-lease" class="tenant-request-button">Download Form</a>
                 </div>
+            </div>
+
+            <div class="tabcontent" id="ACH">
+                <span class="heading" style="text-align: center;display:block;color: #ffb400;">ACH
+                    Form</span>
+                <span class="tenant-request-text">Kindly download ACH Form from given link and send us at
+                    info@maxnetcommercial.com</span>
                 <div class="tenant-forms-container">
                     <span class="tenant-request-text" style="display:block;">ACH Form</span>
                     <a href="https://yahiyamansuri14.github.io/maxnectcommercia/src/document/ach-form.pdf"
                         donwload="ach-form" class="tenant-request-button">Download
                         Form</a>
                 </div>
+
             </div>
         </div>
     </div>
+
+
     <footer class="footer-container">
         <div class="footer-left-container">
             <span class="footer-heading">MAXNET Commercial</span>
@@ -158,30 +164,26 @@
             </ul>
         </div>
         <div class="footer-right-container">
-            <span style="font-size: 25px;color: white;">Tenant Request</span>
-            <br>
+            <a href="https://yahiyamansuri14.github.io/maxnectcommercia/tenant.html"><span
+                    style="font-size: 20px;color: white;">Tenant Request</span></a>
+            <br><br>
             <span style="font-size: 20px;">Call Us </span>
             <br>
-            <span style="font-size: 25px;color: white;">(888) 260-8106</span>
+            <span style="font-size: 16px;color: white;">(888) 260-8106</span>
             <br>
             <br>
             <span style="font-size: 20px;">Email Us</span>
             <br>
-            <span style="font-size: 20px;color: white;">info@maxnetcommercial.com</span>
+            <span style="font-size: 16px;color: white;">info@maxnetcommercial.com</span>
             <br>
             <br>
-            <span style="font-size: 20px;">Follow Us</span>
-            <br>
-            <div class="social-icons">
-                <a href=""><i class="fab fa-facebook"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-twitter-square"></i></a>
-            </div>
         </div>
     </footer>
     <div class="promotion-container">
         <span>Site Developed By HighQ Solutions</span>
     </div>
+
+
     <script>
         function openForm(event, requestName) {
             var i, tabcontent, tablinks;
