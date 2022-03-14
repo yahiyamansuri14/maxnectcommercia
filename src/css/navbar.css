@@ -21,7 +21,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .menu {
@@ -43,7 +44,6 @@ header {
     background-color: #ffb400;
     padding: 10px;
     border: 1px solid #ffb400;
-    /* border-radius: 10px; */
     cursor: pointer;
     color: white;
 }
@@ -59,20 +59,50 @@ input[type=checkbox] {
 }
 
 .img-container {
-    height: 75vh;
-    width: 100vw;
+    height: 500px;
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .center-image {
-    padding: 15px;
-    height: 100%;
+    height: auto;
     width: 100%;
-    
+}
+
+.center-image-home {
+    object-fit: fill;
+    height: 80%;
+}
+
+.logo{
+    height: 100px;
+    width: auto; 
+} 
+
+.tenant-button-home {
+    display: block;
+    text-align: center;
+    background-color: #ffb400;
+    padding: 10px;
+    border: 1px solid #ffb400;
+    cursor: pointer;
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
     .center-image {
         padding: 0px;
+        width: 100%;
+    }
+
+    .img-container {
+        height: 50%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -101,6 +131,14 @@ input[type=checkbox] {
 
     input[type=checkbox]:checked ~ .menu {
         display: block;
+    }
+
+    .img-container {
+        height: 50%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
