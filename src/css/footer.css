@@ -13,42 +13,43 @@
 
 .footer-left-container {
     width: 30vw;
-    padding: 20px;
+    margin: 30px;
 }
 
 .footer-center-container {
     width: 30vw;
-    padding: 20px;
+    margin: 30px;
 }
 
 .footer-right-container {
     width: 30vw;
-    padding: 20px;
+    margin: 30px;
 }
 
 .footer-heading {
-    font-size: 48px;
+    font-size: 30px;
     color: white;
 }
 
 .footer-subheading {
-    font-size: 28px;
+    font-size: 16px;
 }
 
 .footer-menu > li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .footer-menu > li > a{
     padding: 20px;
-    font-size: 24px;
+    font-size: 16px;
     color: white;
 }
 
 .promotion-container span{
     padding: 5px;
     display: block;
-    text-align: center;
+    text-align: left;
+    font-size: 12px;
 }
 
 .social-icons > a > i{
@@ -76,20 +77,21 @@
     
     .footer-right-container {
         margin: 20px;
+        padding: 20px;
         width: 90vw;
     }
 
     .footer-heding {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .footer-subheading {
         font-size: 18px;
     }
     
-    .footer-menu > li {
+    /* .footer-menu > li {
         padding: 10px;
-    }
+    } */
     
     .footer-menu > li > a{
         padding: 20px;
