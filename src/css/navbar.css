@@ -41,9 +41,11 @@ header {
 }
 
 .tenant-button {
-    background-color: #ffb400;
+    /*background-color: #ffb400;*/
+     background-color: #103B1D;
     padding: 10px;
-    border: 1px solid #ffb400;
+    /*border: 1px solid #ffb400;*/
+    border: 1px solid #103B1D;
     cursor: pointer;
     color: white;
 }
@@ -84,9 +86,11 @@ input[type=checkbox] {
 .tenant-button-home {
     display: block;
     text-align: center;
-    background-color: #ffb400;
+    /*background-color: #ffb400;*/
+    background-color: #103B1D;
     padding: 10px;
-    border: 1px solid #ffb400;
+    /*border: 1px solid #ffb400;*/
+    border: 1px solid #103B1D;
     cursor: pointer;
     color: white;
 }
